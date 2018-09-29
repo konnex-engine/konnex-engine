@@ -1,0 +1,1390 @@
+ip: 192.168.10.10
+memory: 6144
+cpus: 2
+provider: vmware_desktop
+authorize: ~/Documents/Development/Vagrant/Homestead/Konnex/.ssh/id_rsa.pub
+keys:
+    - ~  [Restored contents truncated]
+	new file:   vendor/psr/http-message/CHANGELOG.md
+	new file:   vendor/psr/http-message/LICENSE
+	new file:   vendor/psr/http-message/README.md
+	new file:   vendor/psr/http-message/composer.json
+	new file:   vendor/psr/http-message/src/MessageInterface.php
+	new file:   vendor/psr/http-message/src/RequestInterface.php
+	new file:   vendor/psr/http-message/src/ResponseInterface.php
+	new file:   vendor/psr/http-message/src/ServerRequestInterface.php
+	new file:   vendor/psr/http-message/src/StreamInterface.php
+	new file:   vendor/psr/http-message/src/UploadedFileInterface.php
+	new file:   vendor/psr/http-message/src/UriInterface.php
+	new file:   vendor/psr/log/.gitignore
+	new file:   vendor/psr/log/LICENSE
+	new file:   vendor/psr/log/Psr/Log/AbstractLogger.php
+	new file:   vendor/psr/log/Psr/Log/InvalidArgumentException.php
+	new file:   vendor/psr/log/Psr/Log/LogLevel.php
+	new file:   vendor/psr/log/Psr/Log/LoggerAwareInterface.php
+	new file:   vendor/psr/log/Psr/Log/LoggerAwareTrait.php
+	new file:   vendor/psr/log/Psr/Log/LoggerInterface.php
+	new file:   vendor/psr/log/Psr/Log/LoggerTrait.php
+	new file:   vendor/psr/log/Psr/Log/NullLogger.php
+	new file:   vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php
+	new file:   vendor/psr/log/README.md
+	new file:   vendor/psr/log/composer.json
+	new file:   vendor/slim/slim/CODE_OF_CONDUCT.md
+	new file:   vendor/slim/slim/LICENSE.md
+	new file:   vendor/slim/slim/Slim/App.php
+	new file:   vendor/slim/slim/Slim/CallableResolver.php
+	new file:   vendor/slim/slim/Slim/CallableResolverAwareTrait.php
+	new file:   vendor/slim/slim/Slim/Collection.php
+	new file:   vendor/slim/slim/Slim/Container.php
+	new file:   vendor/slim/slim/Slim/DefaultServicesProvider.php
+	new file:   vendor/slim/slim/Slim/DeferredCallable.php
+	new file:   vendor/slim/slim/Slim/Exception/ContainerException.php
+	new file:   vendor/slim/slim/Slim/Exception/ContainerValueNotFoundException.php
+	new file:   vendor/slim/slim/Slim/Exception/InvalidMethodException.php
+	new file:   vendor/slim/slim/Slim/Exception/MethodNotAllowedException.php
+	new file:   vendor/slim/slim/Slim/Exception/NotFoundException.php
+	new file:   vendor/slim/slim/Slim/Exception/SlimException.php
+	new file:   vendor/slim/slim/Slim/Handlers/AbstractError.php
+	new file:   vendor/slim/slim/Slim/Handlers/AbstractHandler.php
+	new file:   vendor/slim/slim/Slim/Handlers/Error.php
+	new file:   vendor/slim/slim/Slim/Handlers/NotAllowed.php
+	new file:   vendor/slim/slim/Slim/Handlers/NotFound.php
+	new file:   vendor/slim/slim/Slim/Handlers/PhpError.php
+	new file:   vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php
+	new file:   vendor/slim/slim/Slim/Handlers/Strategies/RequestResponseArgs.php
+	new file:   vendor/slim/slim/Slim/Http/Body.php
+	new file:   vendor/slim/slim/Slim/Http/Cookies.php
+	new file:   vendor/slim/slim/Slim/Http/Environment.php
+	new file:   vendor/slim/slim/Slim/Http/Headers.php
+	new file:   vendor/slim/slim/Slim/Http/Message.php
+	new file:   vendor/slim/slim/Slim/Http/Request.php
+	new file:   vendor/slim/slim/Slim/Http/RequestBody.php
+	new file:   vendor/slim/slim/Slim/Http/Response.php
+	new file:   vendor/slim/slim/Slim/Http/Stream.php
+	new file:   vendor/slim/slim/Slim/Http/UploadedFile.php
+	new file:   vendor/slim/slim/Slim/Http/Uri.php
+	new file:   vendor/slim/slim/Slim/Interfaces/CallableResolverInterface.php
+	new file:   vendor/slim/slim/Slim/Interfaces/CollectionInterface.php
+	new file:   vendor/slim/slim/Slim/Interfaces/Http/CookiesInterface.php
+	new file:   vendor/slim/slim/Slim/Interfaces/Http/EnvironmentInterface.php
+	new file:   vendor/slim/slim/Slim/Interfaces/Http/HeadersInterface.php
+	new file:   vendor/slim/slim/Slim/Interfaces/InvocationStrategyInterface.php
+	new file:   vendor/slim/slim/Slim/Interfaces/RouteGroupInterface.php
+	new file:   vendor/slim/slim/Slim/Interfaces/RouteInterface.php
+	new file:   vendor/slim/slim/Slim/Interfaces/RouterInterface.php
+	new file:   vendor/slim/slim/Slim/MiddlewareAwareTrait.php
+	new file:   vendor/slim/slim/Slim/Routable.php
+	new file:   vendor/slim/slim/Slim/Route.php
+	new file:   vendor/slim/slim/Slim/RouteGroup.php
+	new file:   vendor/slim/slim/Slim/Router.php
+	new file:   vendor/slim/slim/composer.json
+	modified:   will_autofill.php
+	modified:   will_dml.php
+	modified:   will_view.php
+	modified:   work_flow_autofill.php
+	modified:   work_flow_dml.php
+	modified:   work_flow_view.php
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   .gitignore
+	both modified:   setup.md5
+
+[btlsystemco@hydrogen database]$ git add .
+[btlsystemco@hydrogen database]$ git commit -m "Resolve merge conflicts"
+[master f62b971] Resolve merge conflicts
+[btlsystemco@hydrogen database]$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   setup.md5
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[btlsystemco@hydrogen database]$ git merge intelliflo
+merge: intelliflo - not something we can merge
+
+Did you mean this?
+	origin/intelliflo
+[btlsystemco@hydrogen database]$ git merge origin/intelliflo
+Already up to date.
+[btlsystemco@hydrogen database]$ git status
+On branch master
+nothing to commit, working tree clean
+[btlsystemco@hydrogen database]$ git push origin master
+Password for 'https://beatkalipska@bitbucket.org': 
+To https://bitbucket.org/btlsoftwarehouse/btl-system2.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://beatkalipska@bitbucket.org/btlsoftwarehouse/btl-system2.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[btlsystemco@hydrogen database]$ git log
+commit f62b9713c0260c73091794e43c315853861fede7 (HEAD -> master)
+Merge: 29506cd 6469d5a
+Author: Beata Lipska <beatka.lipska@gmail.com>
+Date:   Thu Sep 13 16:05:50 2018 +0100
+
+    Resolve merge conflicts
+
+commit 29506cdfc096031040e6f7a1308a46e1cf6cfb56
+Author: Beata Lipska <beatka.lipska@gmail.com>
+Date:   Thu Sep 13 16:04:10 2018 +0100
+
+    Merge...
+
+commit 6469d5a61139c9797815dec178b54404a79ca3b3 (origin/intelliflo)
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Thu Sep 13 15:33:59 2018 +0100
+
+    Set token life to 45 minutes and suppress debug messages
+
+commit 61f65e0f2197d31e3d0be8fdd0492c6d693c7117
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Thu Sep 13 15:24:58 2018 +0100
+
+    IntelliFlo feed forward link (v1)
+
+commit 77b0a369b360ddec761f99c97f528cb764cd0658
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 17:12:48 2018 +0100
+
+    autoload.php
+
+commit a9a8773ad8992fe8f7d4ea26a56bb9a62d6484f6
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:59:18 2018 +0100
+
+    autoload.php
+
+commit fa7b778ef7cf33c9b98b73e1a109796c7668df0a
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:28:25 2018 +0100
+
+    session name
+
+commit ad66fa2be521b85e9dbe147af8de0c3006138a4e
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:15:40 2018 +0100
+
+    session name
+
+commit 337a55cf0c953ddfe349211d74e4340e15ffe83b
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 15:18:44 2018 +0100
+
+[btlsystemco@hydrogen database]$ git pull origin master
+Password for 'https://beatkalipska@bitbucket.org': 
+From https://bitbucket.org/btlsoftwarehouse/btl-system2
+ * branch            master     -> FETCH_HEAD
+Auto-merging updateDB.php
+CONFLICT (content): Merge conflict in updateDB.php
+Auto-merging templates/employer_templateDV.html
+Auto-merging templates/contractor_appointments_templateDV.html
+CONFLICT (content): Merge conflict in templates/contractor_appointments_templateDV.html
+Auto-merging templates/clients_templateDV.html
+CONFLICT (content): Merge conflict in templates/clients_templateDV.html
+Auto-merging tasks_import_view.php
+CONFLICT (add/add): Merge conflict in tasks_import_view.php
+Auto-merging tasks_import_dml.php
+CONFLICT (add/add): Merge conflict in tasks_import_dml.php
+Auto-merging setup.md5
+CONFLICT (content): Merge conflict in setup.md5
+Auto-merging parent-children.php
+CONFLICT (content): Merge conflict in parent-children.php
+Auto-merging includes/functions_callcentre.php
+CONFLICT (content): Merge conflict in includes/functions_callcentre.php
+Auto-merging includes/functions_annual_review.php
+CONFLICT (content): Merge conflict in includes/functions_annual_review.php
+Auto-merging includes/functions.php
+Auto-merging incCommon.php
+CONFLICT (content): Merge conflict in incCommon.php
+Auto-merging employer_dml.php
+Auto-merging contractor_appointments_dml.php
+CONFLICT (content): Merge conflict in contractor_appointments_dml.php
+Auto-merging common.js.php
+CONFLICT (content): Merge conflict in common.js.php
+Auto-merging clients_dml.php
+CONFLICT (content): Merge conflict in clients_dml.php
+Auto-merging ajax_combo.php
+CONFLICT (content): Merge conflict in ajax_combo.php
+Auto-merging admin/toolTipData.js
+CONFLICT (content): Merge conflict in admin/toolTipData.js
+Auto-merging admin/pageRebuildFields.php
+CONFLICT (content): Merge conflict in admin/pageRebuildFields.php
+Auto-merging admin/incFunctions.php
+CONFLICT (content): Merge conflict in admin/incFunctions.php
+Auto-merging .gitignore
+CONFLICT (content): Merge conflict in .gitignore
+Automatic merge failed; fix conflicts and then commit the result.
+[btlsystemco@hydrogen database]$ cd ..
+[btlsystemco@hydrogen www]$ exit
+logout
+Connection to hydrogen.cloudhosting.co.uk closed.
+Bosss-MacBook-Pro:btl-system2 S$ ssh -p 722 btltest@hydrogen.cloudhosting.co.uk
+btltest@hydrogen.cloudhosting.co.uk's password: 
+Last failed login: Wed Sep  5 17:13:08 BST 2018 from 80.5.2.143 on ssh:notty
+There was 1 failed login attempt since the last successful login.
+[btltest@hydrogen ~]$ cd www/database/
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is up to date with 'origin/intelliflo'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	custom/error_log
+
+nothing added to commit but untracked files present (use "git add" to track)
+[btltest@hydrogen database]$ git fetch origin
+Password for 'https://SangTech@bitbucket.org': 
+remote: Counting objects: 111, done.
+remote: Compressing objects: 100% (110/110), done.
+remote: Total 111 (delta 91), reused 0 (delta 0)
+Receiving objects: 100% (111/111), 45.98 KiB | 245.00 KiB/s, done.
+Resolving deltas: 100% (91/91), completed with 38 local objects.
+From https://bitbucket.org/btlsoftwarehouse/btl-system2
+   d0b1e0b..efc0af9  master     -> origin/master
+[btltest@hydrogen database]$ git log
+commit 6469d5a61139c9797815dec178b54404a79ca3b3 (HEAD -> intelliflo, origin/intelliflo)
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Thu Sep 13 15:33:59 2018 +0100
+
+    Set token life to 45 minutes and suppress debug messages
+
+commit 61f65e0f2197d31e3d0be8fdd0492c6d693c7117
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Thu Sep 13 15:24:58 2018 +0100
+
+    IntelliFlo feed forward link (v1)
+
+commit 77b0a369b360ddec761f99c97f528cb764cd0658
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 17:12:48 2018 +0100
+
+    autoload.php
+
+commit a9a8773ad8992fe8f7d4ea26a56bb9a62d6484f6
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:59:18 2018 +0100
+
+    autoload.php
+
+commit fa7b778ef7cf33c9b98b73e1a109796c7668df0a
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:28:25 2018 +0100
+
+    session name
+
+commit ad66fa2be521b85e9dbe147af8de0c3006138a4e
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:15:40 2018 +0100
+
+    session name
+
+commit 337a55cf0c953ddfe349211d74e4340e15ffe83b
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 15:18:44 2018 +0100
+
+    ADDED: Intelliflo integration.
+
+commit b88a0e8281111106ee944d8d6d835a744bfccfdd
+Author: Beata Lipska <beatka.lipska@gmail.com>
+Date:   Tue Aug 21 15:32:15 2018 +0100
+
+    doc collecting pipeline tracker update
+
+commit 4e45d6df5150c869450145288423d28d38d9cac2
+Author: Beata Lipska <beatka.lipska@gmail.com>
+Date:   Fri Aug 17 10:12:18 2018 +0100
+
+    client_imported received feature
+[btltest@hydrogen database]$ git merge master
+Auto-merging includes/functions_callcentre.php
+CONFLICT (content): Merge conflict in includes/functions_callcentre.php
+Automatic merge failed; fix conflicts and then commit the result.
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is up to date with 'origin/intelliflo'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+	new file:   error_log
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   includes/functions_callcentre.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	custom/error_log
+
+[btltest@hydrogen database]$ git diff
+diff --cc includes/functions_callcentre.php
+index 57c6da2,85f18a5..0000000
+--- a/includes/functions_callcentre.php
++++ b/includes/functions_callcentre.php
+@@@ -3604,57 -3505,56 +3604,62 @@@ function showSourcesClientStatusesCount
+                                <th>Other</th>
+                                <th>Total</th>  
+                                </tr> <tbody>';
+ -              foreach ($array as $consultant) {
+ -                      $output .= '<tr>
+ -                              <td>'.$consultant['client_source'].'</td>
+ -                              <td>'.$consultant['Satisfactory'].'</td>
+ -                              <td>'.$consultant['Never called'].'</td>
+ -                              <td>'.$consultant['Callback'].'</td>
+ -                              <td>'.$consultant['Booked'].'</td>
+ -                              <td>'.$consultant['Send Back'].'</td>
+ -                              <td>'.$consultant['DO NOT CALL'].'</td>
+ -                              <td>'.$consultant['Wrong number'].'</td>
+ -                              <td>'.$consultant['Not interested'].'</td>
+ -                              <td>'.$consultant['DMC'].'</td>
+ -                              <td>'.$consultant['Other'].'</td>
+ -                              <td>'.$consultant['total'].'</td>
+ +        foreach ($array as $consultant) {
+ +            $output .= '<tr>
+ +                              <td>' . $consultant['client_source'] . '</td>
+ +                              <td>' . $consultant['Satisfactory'] . '</td>
+ +                              <td>' . $consultant['Never called'] . '</td>
+ +                              <td>' . $consultant['Callback'] . '</td>
+ +                              <td>' . $consultant['Booked'] . '</td>
+ +                              <td>' . $consultant['Send Back'] . '</td>
+ +                              <td>' . $consultant['DO NOT CALL'] . '</td>
+ +                              <td>' . $consultant['Wrong number'] . '</td>
+ +                              <td>' . $consultant['Not interested'] . '</td>
+ +                              <td>' . $consultant['DMC'] . '</td>
+ +                              <td>' . $consultant['Other'] . '</td>
+ +                              <td>' . $consultant['total'] . '</td>
+                                </tr>';
+ -                              
+ -                              $sats = $sats +$consultant['Satisfactory'];
+ -                              $nerer = $nerer+ $consultant['Never called'];
+ -                              $callback = $callback+ $consultant['Callback'];
+ -                              $booked = $booked+$consultant['Booked'] ;
+ -                              $send_back = $send_back+$consultant['Send Back'] ;
+ -                              $donotcall = $donotcall+ $consultant['DO NOT CALL'];
+ -                              $wrong_number = $wrong_number+$consultant['Wrong number'] ;
+ -                              $not_interested = $not_interested+ $consultant['Not interested'];
+ -                              $dmc = $dmc+ $consultant['DMC'];
+ -                              $other = $other+ $consultant['Other'];
+ -                              $total = $total+$consultant['total'];
+ -              }
+ -              $output .= '  </tbody> <tfoot><tr>
+ +
+ +            $sats = $sats + $consultant['Satisfactory'];
+ +            $nerer = $nerer + $consultant['Never called'];
+ +            $callback = $callback + $consultant['Callback'];
+ +            $booked = $booked + $consultant['Booked'];
+ +            $send_back = $send_back + $consultant['Send Back'];
+ +            $donotcall = $donotcall + $consultant['DO NOT CALL'];
+ +            $wrong_number = $wrong_number + $consultant['Wrong number'];
+ +            $not_interested = $not_interested + $consultant['Not interested'];
+ +            $dmc = $dmc + $consultant['DMC'];
+ +            $other = $other + $consultant['Other'];
+ +            $total = $total + $consultant['total'];
+ +        }
+ +        $output .= '  </tbody> <tfoot><tr>
+                <th>Totals: </th>
+ -              <th>'.$sats.'</th>
+ -                              <th>'.$nerer.'</th>
+ -                              <th>'.$callback.'</th>
+ -                              <th>'.$booked.'</th>
+ -                              <th>'.$send_back.'</th>
+ -                              <th>'.$donotcall.'</th>
+ -                              <th>'.$wrong_number.'</th>
+ -                              <th>'.$not_interested.'</th>
+ -                              <th>'.$dmc.'</th>
+ -                              <th>'.$other.'</th>
+ +              <th>' . $sats . '</th>
+ +                              <th>' . $nerer . '</th>
+ +                              <th>' . $callback . '</th>
+ +                              <th>' . $booked . '</th>
+ +                              <th>' . $send_back . '</th>
+ +                              <th>' . $donotcall . '</th>
+ +                              <th>' . $wrong_number . '</th>
+ +                              <th>' . $not_interested . '</th>
+ +                              <th>' . $dmc . '</th>
+ +                              <th>' . $other . '</th>
+                
+ -              <th>'.$total.'</th>
+ +              <th>' . $total . '</th>
+                </tr></tfoot></table>';
+ -              }
+ -              
+ -              return $output;
+ -              }
+ +    }
+ +
+ +    return $output;
+ +}
+  
+++<<<<<<< HEAD
+ +function getUKPRSleadscount($start, $end)
+ +{
+ +    $sql = "SELECT 
+++=======
++ function getUKPRSleadscount($start, $end) {
++       $sql = "SELECT 
+++>>>>>>> master
+      `consultants`.`ConsultantName`,
+      `consultants`.`CanSellContracts` AS `out of`
+    FROM
+@@@ -3667,20 -3567,19 +3672,30 @@@
+      consultants.CanSellContracts
+    
+        ";
+ -      
+ -      //echo $sql;
+ -      //echo '<br>';
+ -      
+ -        $result = mysql_query($sql) or die(mysql_error());
+ +
+ +    //echo $sql;
+ +    //echo '<br>';
+ +
+ +    $result = mysql_query($sql) or die(mysql_error());
+      while ($row = mysql_fetch_array($result)) {
+++<<<<<<< HEAD
+ +        $output[] = $row;
+ +    }
+ +    return $output;
+ +}
+ +
+ +function getUsedUKPRSleadscount($start, $end, $contultant)
+ +{
+ +    $sql = "SELECT 
+++=======
++       $output[] = $row;
++       }
++       return $output; 
++ }
++ 
++ function getUsedUKPRSleadscount($start, $end, $contultant) {
++       $sql = "SELECT 
+++>>>>>>> master
+      `consultants`.`ConsultantName`,
+      COUNT(`clients`.`client_id`) AS `weekly_leads`
+    FROM
+@@@ -3696,26 -3595,25 +3711,48 @@@
+      `consultants`.`CanSellContracts`
+    
+        ";
+++<<<<<<< HEAD
+ +
+ +    //echo $sql;
+ +    //echo '<br>';
+ +
+ +    $result = mysql_query($sql) or die(mysql_error());
+ +    while ($row = mysql_fetch_array($result)) {
+ +        $output = $row['weekly_leads'];
+ +    }
+ +    return $output;
+ +}
+ +
+ +
+ +function showUKPRSleadscount($array, $start, $end)
+ +{
+ +    if (empty($array)) {
+ +        $output = showAlert('danger', 'Empty set');
+ +    } else {
+ +        //$output = showAlert('success', 'We have something');
+ +
+ +        $output = '<table class="table table-hover">
+++=======
++       
++       //echo $sql;
++       //echo '<br>';
++       
++         $result = mysql_query($sql) or die(mysql_error());
++     while ($row = mysql_fetch_array($result)) {
++       $output = $row['weekly_leads'];
++       }
++       return $output; 
++ }
++ 
++ 
++ function showUKPRSleadscount($array, $start, $end) {
++       if(empty($array)) {
++               $output = showAlert('danger', 'Empty set');
++       } else {
++               //$output = showAlert('success', 'We have something');
++               
++               $output = '<table class="table table-hover">
+++>>>>>>> master
+                <tr>
+                <th>Consultant</th>
+                <th>Lead amount</th>
+@@@ -3723,38 -3621,37 +3760,50 @@@
+                <th>Leads Left</th>
+                </tr>
+                ';
+++<<<<<<< HEAD
+ +
+ +        foreach ($array as $row) {
+ +            $leads_used = getUsedUKPRSleadscount($start, $end, $row['ConsultantName']);
+ +            $leads_left = $row['out of'] - $leads_used;
+ +            $output .= '<tr>
+ +                      <td>' . $row['ConsultantName'] . ' </td>
+ +                      <td>' . $leads_used . '</td>
+ +                      <td>' . $row['out of'] . '</td>
+ +                      <td>' . $leads_left . '</td>
+++=======
++               
++               foreach ($array as $row) {
++             $leads_used =getUsedUKPRSleadscount($start, $end, $row['ConsultantName']);
++                       $leads_left = $row['out of'] - $leads_used;
++                       $output .= '<tr>
++                       <td>'.$row['ConsultantName'].' </td>
++                       <td>'.$leads_used.'</td>
++                       <td>'.$row['out of'].'</td>
++                       <td>'.$leads_left.'</td>
+++>>>>>>> master
+                        </tr>';
+ -              }
+ -              
+ -              $output .= '</table>';
+ -              
+ -      }
+ -      return $output;
+ -} 
+ +        }
+  
+ -function showTableUKPRSLeadsListPerConsultant($array) {
+ -                              if(!empty($array))      {
+ -                      //              echo var_dump($array);
+ -                                      
+ -                                      $output .= '
+ +        $output .= '</table>';
+ +
+ +    }
+ +    return $output;
+ +}
+ +
+ +function showTableUKPRSLeadsListPerConsultant($array)
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is up to date with 'origin/intelliflo'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+	new file:   error_log
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   includes/functions_callcentre.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	custom/error_log
+
+[btltest@hydrogen database]$ git add .
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is up to date with 'origin/intelliflo'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+	new file:   custom/error_log
+	new file:   error_log
+	modified:   includes/functions_callcentre.php
+
+[btltest@hydrogen database]$ git commit -m "We will merge eventually..."
+[intelliflo a89f4f7] We will merge eventually...
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is ahead of 'origin/intelliflo' by 12 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[btltest@hydrogen database]$ git log
+commit a89f4f7d726fa9707b0eb285975f6ec2d724759a (HEAD -> intelliflo)
+Merge: 6469d5a c2fac5d
+Author: Sean Sangster <s@the-foundation.cf>
+Date:   Thu Sep 13 16:29:17 2018 +0100
+
+    We will merge eventually...
+
+commit 6469d5a61139c9797815dec178b54404a79ca3b3 (origin/intelliflo)
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Thu Sep 13 15:33:59 2018 +0100
+
+    Set token life to 45 minutes and suppress debug messages
+
+commit 61f65e0f2197d31e3d0be8fdd0492c6d693c7117
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Thu Sep 13 15:24:58 2018 +0100
+
+    IntelliFlo feed forward link (v1)
+
+commit 77b0a369b360ddec761f99c97f528cb764cd0658
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 17:12:48 2018 +0100
+
+    autoload.php
+
+commit c2fac5d26bab640a20a9b92bc7149e323badbf1d (master)
+Author: Sean Sangster <s@the-foundation.cf>
+Date:   Wed Sep 5 17:07:27 2018 +0100
+
+    routine
+
+commit a9a8773ad8992fe8f7d4ea26a56bb9a62d6484f6
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:59:18 2018 +0100
+
+    autoload.php
+
+commit fa7b778ef7cf33c9b98b73e1a109796c7668df0a
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:28:25 2018 +0100
+
+    session name
+
+commit ad66fa2be521b85e9dbe147af8de0c3006138a4e
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:15:40 2018 +0100
+
+    session name
+
+commit 337a55cf0c953ddfe349211d74e4340e15ffe83b
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 15:18:44 2018 +0100
+
+[btltest@hydrogen database]$ git reset --hard 6469d5
+HEAD is now at 6469d5a Set token life to 45 minutes and suppress debug messages
+[btltest@hydrogen database]$ git log
+commit 6469d5a61139c9797815dec178b54404a79ca3b3 (HEAD -> intelliflo, origin/intelliflo)
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Thu Sep 13 15:33:59 2018 +0100
+
+    Set token life to 45 minutes and suppress debug messages
+
+commit 61f65e0f2197d31e3d0be8fdd0492c6d693c7117
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Thu Sep 13 15:24:58 2018 +0100
+
+    IntelliFlo feed forward link (v1)
+
+commit 77b0a369b360ddec761f99c97f528cb764cd0658
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 17:12:48 2018 +0100
+
+    autoload.php
+
+commit a9a8773ad8992fe8f7d4ea26a56bb9a62d6484f6
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:59:18 2018 +0100
+
+    autoload.php
+
+commit fa7b778ef7cf33c9b98b73e1a109796c7668df0a
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:28:25 2018 +0100
+
+    session name
+
+commit ad66fa2be521b85e9dbe147af8de0c3006138a4e
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 16:15:40 2018 +0100
+
+    session name
+
+commit 337a55cf0c953ddfe349211d74e4340e15ffe83b
+Author: Sean Sangster <s@verity-bond.co.uk>
+Date:   Wed Sep 5 15:18:44 2018 +0100
+
+    ADDED: Intelliflo integration.
+
+commit b88a0e8281111106ee944d8d6d835a744bfccfdd
+Author: Beata Lipska <beatka.lipska@gmail.com>
+Date:   Tue Aug 21 15:32:15 2018 +0100
+
+    doc collecting pipeline tracker update
+
+commit 4e45d6df5150c869450145288423d28d38d9cac2
+Author: Beata Lipska <beatka.lipska@gmail.com>
+Date:   Fri Aug 17 10:12:18 2018 +0100
+
+    client_imported received feature
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is up to date with 'origin/intelliflo'.
+
+nothing to commit, working tree clean
+[btltest@hydrogen database]$ git fetch origin
+Password for 'https://SangTech@bitbucket.org': 
+[btltest@hydrogen database]$ git merge master
+Auto-merging includes/functions_callcentre.php
+CONFLICT (content): Merge conflict in includes/functions_callcentre.php
+Automatic merge failed; fix conflicts and then commit the result.
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is up to date with 'origin/intelliflo'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+	new file:   error_log
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   includes/functions_callcentre.php
+
+[btltest@hydrogen database]$ git rm inc
+incCommon.php  includes/      
+[btltest@hydrogen database]$ git rm includes/functions_callcentre.php
+includes/functions_callcentre.php: needs merge
+rm 'includes/functions_callcentre.php'
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is up to date with 'origin/intelliflo'.
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+
+	new file:   error_log
+	deleted:    includes/functions_callcentre.php
+
+[btltest@hydrogen database]$ git commit -m "Merge conflict resolution"
+[intelliflo c3bef39] Merge conflict resolution
+[btltest@hydrogen database]$ git reset --hard 6469d5
+HEAD is now at 6469d5a Set token life to 45 minutes and suppress debug messages
+[btltest@hydrogen database]$ git merge origin/master
+Auto-merging updateDB.php
+CONFLICT (content): Merge conflict in updateDB.php
+Auto-merging templates/employer_templateDV.html
+Auto-merging templates/contractor_appointments_templateDV.html
+CONFLICT (content): Merge conflict in templates/contractor_appointments_templateDV.html
+Auto-merging templates/clients_templateDV.html
+CONFLICT (content): Merge conflict in templates/clients_templateDV.html
+Auto-merging tasks_import_view.php
+CONFLICT (add/add): Merge conflict in tasks_import_view.php
+Auto-merging tasks_import_dml.php
+CONFLICT (add/add): Merge conflict in tasks_import_dml.php
+Auto-merging setup.md5
+CONFLICT (content): Merge conflict in setup.md5
+Auto-merging parent-children.php
+CONFLICT (content): Merge conflict in parent-children.php
+Auto-merging includes/functions_callcentre.php
+CONFLICT (content): Merge conflict in includes/functions_callcentre.php
+Auto-merging includes/functions_annual_review.php
+CONFLICT (content): Merge conflict in includes/functions_annual_review.php
+Auto-merging includes/functions.php
+Auto-merging incCommon.php
+CONFLICT (content): Merge conflict in incCommon.php
+Auto-merging employer_dml.php
+Auto-merging contractor_appointments_dml.php
+CONFLICT (content): Merge conflict in contractor_appointments_dml.php
+Auto-merging common.js.php
+CONFLICT (content): Merge conflict in common.js.php
+Auto-merging clients_dml.php
+CONFLICT (content): Merge conflict in clients_dml.php
+Auto-merging ajax_combo.php
+CONFLICT (content): Merge conflict in ajax_combo.php
+Auto-merging admin/toolTipData.js
+CONFLICT (content): Merge conflict in admin/toolTipData.js
+Auto-merging admin/pageRebuildFields.php
+CONFLICT (content): Merge conflict in admin/pageRebuildFields.php
+Auto-merging admin/incFunctions.php
+CONFLICT (content): Merge conflict in admin/incFunctions.php
+Automatic merge failed; fix conflicts and then commit the result.
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is up to date with 'origin/intelliflo'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Changes to be committed:
+
+	modified:   activity_types_dml.php
+	modified:   advisors_dml.php
+	modified:   business_submited_dml.php
+	modified:   business_submited_view.php
+	new file:   calendar_messages_autofill.php
+	new file:   calendar_messages_dml.php
+	new file:   calendar_messages_view.php
+	new file:   custom/callcentre_calendar_change_owner_bulk.php
+	modified:   custom/callcentre_callendar_change_owner.php
+	new file:   custom/print_fax_pension_bd_wealth.php
+	modified:   custom/print_fax_pension_eba.php
+	modified:   custom/sandpit.php
+	modified:   dynamic.css.php
+	modified:   employer_dml.php
+	new file:   hooks/calendar_messages.php
+	new file:   hooks/contractor_appointments-tv.js
+	modified:   hooks/contractor_appointments.php
+	modified:   includes/functions.php
+	modified:   includes/functions_pipeline_tracker.php
+	modified:   includes/functions_regulator.php
+	modified:   providers_dml.php
+	modified:   templates/activity_types_templateDV.html
+	modified:   templates/advisors_templateDV.html
+	modified:   templates/business_submited-ajax-cache.php
+	modified:   templates/business_submited_templateDV.html
+	modified:   templates/business_submited_templateDVP.html
+	modified:   templates/business_submited_templateTV.html
+	modified:   templates/business_submited_templateTVS.html
+	new file:   templates/calendar_messages-ajax-cache.php
+	new file:   templates/calendar_messages_templateDV.html
+	new file:   templates/calendar_messages_templateDVP.html
+	new file:   templates/calendar_messages_templateTV.html
+	new file:   templates/calendar_messages_templateTVS.html
+	modified:   templates/children-business_submited-printable.php
+	modified:   templates/children-business_submited.php
+	new file:   templates/children-calendar_messages-printable.php
+	new file:   templates/children-calendar_messages.php
+	modified:   templates/employer_templateDV.html
+	modified:   templates/providers_templateDV.html
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   admin/incFunctions.php
+	both modified:   admin/pageRebuildFields.php
+	both modified:   admin/toolTipData.js
+	both modified:   ajax_combo.php
+	both modified:   clients_dml.php
+	both modified:   common.js.php
+	both modified:   contractor_appointments_dml.php
+	both modified:   incCommon.php
+	both modified:   includes/functions_annual_review.php
+	both modified:   includes/functions_callcentre.php
+	both modified:   parent-children.php
+	both modified:   setup.md5
+	both added:      tasks_import_dml.php
+	both added:      tasks_import_view.php
+	both modified:   templates/clients_templateDV.html
+	both modified:   templates/contractor_appointments_templateDV.html
+	both modified:   updateDB.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	custom/error_log
+	error_log
+
+[btltest@hydrogen database]$ git add .
+[btltest@hydrogen database]$ git commit -m "Resolve merge conflicts"
+[intelliflo 840564e] Resolve merge conflicts
+[btltest@hydrogen database]$ git status
+On branch intelliflo
+Your branch is ahead of 'origin/intelliflo' by 21 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[btltest@hydrogen database]$ git reset --hard 6469d5
+HEAD is now at 6469d5a Set token life to 45 minutes and suppress debug messages
+[btltest@hydrogen database]$ git checkout master
+Switched to branch 'master'
+Your branch and 'origin/master' have diverged,
+and have 1 and 10 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+[btltest@hydrogen database]$ git checkout intelliflo
+Checking out files: 100% (1140/1140), done.
+Switched to branch 'intelliflo'
+Your branch is up to date with 'origin/intelliflo'.
+[btltest@hydrogen database]$ git diff master origin/master
+diff --git a/activity_types_dml.php b/activity_types_dml.php
+index 3d91ebd..475113e 100644
+--- a/activity_types_dml.php
++++ b/activity_types_dml.php
+@@ -247,25 +247,6 @@ function activity_types_delete($selected_id, $AllowDeleteOfParents=false, $skipC
+                return $RetMsg;
+        }
+ 
+-       // child table: ticket_activities
+-       $res = sql("select `activity_type_id` from `activity_types` where `activity_type_id`='$selected_id'", $eo);
+-       $activity_type_id = db_fetch_row($res);
+-       $rires = sql("select count(1) from `ticket_activities` where `activity_type`='".addslashes($activity_type_id[0])."'", $eo);
+-       $rirow = db_fetch_row($rires);
+-       if($rirow[0] && !$AllowDeleteOfParents && !$skipChecks){
+-               $RetMsg = $Translation["couldn't delete"];
+-               $RetMsg = str_replace("<RelatedRecords>", $rirow[0], $RetMsg);
+-               $RetMsg = str_replace("<TableName>", "ticket_activities", $RetMsg);
+-               return $RetMsg;
+-       }elseif($rirow[0] && $AllowDeleteOfParents && !$skipChecks){
+-               $RetMsg = $Translation["confirm delete"];
+-               $RetMsg = str_replace("<RelatedRecords>", $rirow[0], $RetMsg);
+-               $RetMsg = str_replace("<TableName>", "ticket_activities", $RetMsg);
+-               $RetMsg = str_replace("<Delete>", "<input type=\"button\" class=\"button\" value=\"".$Translation['yes']."\" onClick=\"window.location='activity_types_view.php?SelectedID=".urlencode($selected_id)."&delete_x=1&confirmed=1';\">", $RetMsg);
+-               $RetMsg = str_replace("<Cancel>", "<input type=\"button\" class=\"button\" value=\"".$Translation['no']."\" onClick=\"window.location='activity_types_view.php?SelectedID=".urlencode($selected_id)."';\">", $RetMsg);
+-               return $RetMsg;
+-       }
+-
+        // child table: investments_notes
+        $res = sql("select `activity_type_id` from `activity_types` where `activity_type_id`='$selected_id'", $eo);
+        $activity_type_id = db_fetch_row($res);
+diff --git a/admin/incFunctions.php b/admin/incFunctions.php
+index 5aea8bd..ecc565f 100644
+--- a/admin/incFunctions.php
++++ b/admin/incFunctions.php
+@@ -105,27 +105,6 @@
+                                        'group' => $tg[0],
+                                        'homepageShowCount' => 1
+                                ),
+-                               'dependants' => array(
+-                                       'Caption' => 'Dependants',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/apple.png',
+-                                       'group' => $tg[0],
+-                                       'homepageShowCount' => 0
+-                               ),
+-                               'client_health' => array(
+-                                       'Caption' => 'Client health',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/health.png',
+-                                       'group' => $tg[0],
+-                                       'homepageShowCount' => 0
+-                               ),
+-                               'client_budget' => array(
+-                                       'Caption' => 'Client budget',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/cash_terminal.png',
+-                                       'group' => $tg[0],
+-                                       'homepageShowCount' => 0
+-                               ),
+                                'mortgage' => array(
+                                        'Caption' => 'Mortgage',
+                                        'Description' => '',
+@@ -133,27 +112,6 @@
+                                        'group' => $tg[5],
+                                        'homepageShowCount' => 0
+                                ),
+-                               'retirement_plans' => array(
+-                                       'Caption' => 'Retirement plans',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/application_view_gallery.png',
+-                                       'group' => $tg[0],
+-                                       'homepageShowCount' => 0
+-                               ),
+-                               'final_salary_pension' => array(
+-                                       'Caption' => 'Final salary pension',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/application_view_gallery.png',
+-                                       'group' => $tg[0],
+-                                       'homepageShowCount' => 0
+-                               ),
+-                               'fact_find_other' => array(
+-                                       'Caption' => 'Fact find other',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/attach.png',
+-                                       'group' => $tg[0],
+-                                       'homepageShowCount' => 0
+-                               ),
+                                'activities' => array(
+                                        'Caption' => 'Notes',
+                                        'Description' => '',
+@@ -175,13 +133,6 @@
+                                        'group' => $tg[0],
+                                        'homepageShowCount' => 0
+                                ),
+-                               'atr' => array(
+-                                       'Caption' => 'ATR',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/bomb.png',
+-                                       'group' => $tg[0],
+-                                       'homepageShowCount' => 0
+-                               ),
+                                'will' => array(
+                                        'Caption' => 'Will',
+                                        'Description' => '',
+@@ -266,13 +217,6 @@
+                                        'group' => $tg[0],
+                                        'homepageShowCount' => 0
+                                ),
+-                               'tcf' => array(
+-                                       'Caption' => 'TCF',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/cup.png',
+-                                       'group' => $tg[0],
+-                                       'homepageShowCount' => 0
+-                               ),
+                                'anual_review' => array(
+                                        'Caption' => 'Annual review',
+                                        'Description' => '',
+@@ -644,13 +588,6 @@
+                                        'group' => $tg[14],
+                                        'homepageShowCount' => 0
+                                ),
+-                               'db_maintain_log' => array(
+-                                       'Caption' => 'IT Tickets',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/control_panel.png',
+-                                       'group' => $tg[12],
+-                                       'homepageShowCount' => 0
+-                               ),
+                                'mortgage_types' => array(
+                                        'Caption' => 'Mortgage types',
+                                        'Description' => '',
+@@ -770,27 +707,6 @@
+                                        'group' => $tg[14],
+                                        'homepageShowCount' => 0
+                                ),
+-                               'ticket_types' => array(
+-                                       'Caption' => 'Ticket types',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/control_panel.png',
+-                                       'group' => $tg[12],
+-                                       'homepageShowCount' => 0
+-                               ),
+-                               'ticket_statuses' => array(
+-                                       'Caption' => 'Ticket types',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/control_panel.png',
+-                                       'group' => $tg[12],
+-                                       'homepageShowCount' => 0
+-                               ),
+-                               'ticket_activities' => array(
+-                                       'Caption' => 'Ticket activities',
+-                                       'Description' => '',
+-                                       'tableIcon' => 'resources/table_icons/control_panel.png',
+-                                       'group' => $tg[12],
+-                                       'homepageShowCount' => 0
+-                               ),
+                                'useful_documents' => array(
+                                        'Caption' => 'Useful documents',
+                                        'Description' => '',
+@@ -1007,6 +923,13 @@
+                                        'tableIcon' => 'table.gif',
+                                        'group' => $tg[0],
+                                        'homepageShowCount' => 0
++                               ),
++                               'calendar_messages' => array(
++                                       'Caption' => 'Calendar messages',
++                                       'Description' => '',
++                                       'tableIcon' => 'table.gif',
++                                       'group' => $tg[0],
++                                       'homepageShowCount' => 0
+                                )
+                );
+ 
+@@ -1025,17 +948,10 @@
+                        $arrTables = array(   
+                                'clients' => 'Clients',
+                                'contractor_appointments' => 'Calendar ',
+-                               'dependants' => 'Dependants',
+-                               'client_health' => 'Client health',
+-                               'client_budget' => 'Client budget',
+                                'mortgage' => 'Mortgage',
+-                               'retirement_plans' => 'Retirement plans',
+-                               'final_salary_pension' => 'Final salary pension',
+-                               'fact_find_other' => 'Fact find other',
+                                'activities' => 'Notes',
+                                'callbacks' => 'Callbacks',
+                                'client_documents' => 'Client documents',
+-                               'atr' => 'ATR',
+                                'will' => 'Will',
+                                'loas' => 'LOAs',
+                                'polices' => 'Policies',
+@@ -1048,7 +964,6 @@
+                                'business_sub_reg' => 'REG',
+                                'protection' => 'Protection',
+                                'callbacks_archive' => 'Callbacks archive',
+-                               'tcf' => 'TCF',
+                                'anual_review' => 'Annual review',
+                                'opportunieties' => 'Opportunieties',
+                                'advisor_postcode_areas' => 'Advisor postcode areas',
+@@ -1102,7 +1017,6 @@
+                                'street_rota' => 'Street rota',
+                                'street_days' => 'Street days',
+                                'types_of_day' => 'Types of day',
+-                               'db_maintain_log' => 'IT Tickets',
+                                'mortgage_types' => 'Mortgage types',
+                                'fact_find_questions' => 'Fact find questions',
+                                'admin_staf_in_out' => 'Staff in and out',
+@@ -1120,9 +1034,6 @@
+                                'protection_items' => 'Protection items',
+                                'protection_checklist_targets' => 'Protection checklist targets',
+                                'calendar_activities' => 'Calendar activities',
+-                               'ticket_types' => 'Ticket types',
+-                               'ticket_statuses' => 'Ticket types',
+-                               'ticket_activities' => 'Ticket activities',
+                                'useful_documents' => 'Useful documents',
+                                'client_doc_folders' => 'Client doc folders',
+                                'client_admin' => 'Client admin',
+@@ -1153,7 +1064,8 @@
+                                'mortgage_protection' => 'Mortage protection',
+                                'first_app_checklist' => 'First app checklist',
+                                'clients_imported' => 'Clients imported',
+-                               'tasks_import' => 'Tasks import'
++                               'tasks_import' => 'Tasks import',
++                               'calendar_messages' => 'Calendar messages'
+                        );
+ 
+                        return $arrTables;
+diff --git a/admin/pageRebuildFields.php b/admin/pageRebuildFields.php
+index 620f976..bc6fe6e 100644
+--- a/admin/pageRebuildFields.php
++++ b/admin/pageRebuildFields.php
+@@ -89,42 +89,6 @@
+                        'app_value' => array('appgini' => 'INT '),
+                        'chosen_provider' => array('appgini' => 'INT(11) ')
+                ),
+-               'dependants' => array(   
+-                       'dependatnt_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'dependatnt_name' => array('appgini' => 'VARCHAR(150) '),
+-                       'dependatnt_surname' => array('appgini' => 'VARCHAR(150) '),
+-                       'client_id' => array('appgini' => 'INT(11) '),
+-                       'dependatnt_dob' => array('appgini' => 'DATE '),
+-                       'dependatnt_notes' => array('appgini' => 'TEXT '),
+-                       'dependatnt_add_date' => array('appgini' => 'DATE '),
+-                       'dependant_relationship' => array('appgini' => 'VARCHAR(40) '),
+-                       'dependant_owner' => array('appgini' => 'VARCHAR(40) ')
+-               ),
+-               'client_health' => array(   
+-                       'health_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'client_id' => array('appgini' => 'INT(11) '),
+-                       'health_good' => array('appgini' => 'SMALLINT '),
+-                       'health_smoker' => array('appgini' => 'SMALLINT '),
+-                       'health_will' => array('appgini' => 'INT '),
+-                       'health_financial_dependants' => array('appgini' => 'INT '),
+-                       'health_notes' => array('appgini' => 'TEXT '),
+-                       'health_add_date' => array('appgini' => 'DATE ')
+-               ),
+-               'client_budget' => array(   
+-                       'budget_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'client_id' => array('appgini' => 'INT(11) '),
+-                       'annual_income' => array('appgini' => 'INT '),
+-                       'monthly_income' => array('appgini' => 'INT '),
+-                       'housekeeping' => array('appgini' => 'INT default \'0\' '),
+-                       'rent' => array('appgini' => 'VARCHAR(40) default \'0\' '),
+-                       'bills' => array('appgini' => 'INT default \'0\' '),
+-                       'insurances' => array('appgini' => 'INT default \'0\' '),
+-                       'travel' => array('appgini' => 'INT default \'0\' '),
+-                       'other' => array('appgini' => 'INT default \'0\' '),
+-                       'total' => array('appgini' => 'INT '),
+-                       'budget_notes' => array('appgini' => 'TEXT '),
+-                       'budget_add_date' => array('appgini' => 'DATE ')
+-               ),
+                'mortgage' => array(   
+                        'mortgage_id' => array('appgini' => 'INT not null primary key auto_increment '),
+                        'client_id' => array('appgini' => 'INT(11) '),
+@@ -153,37 +117,6 @@
+                        'commission' => array('appgini' => 'VARCHAR(40) '),
+                        'fee' => array('appgini' => 'DECIMAL(10,2) default \'0.00\' ')
+                ),
+-               'retirement_plans' => array(   
+-                       'retirement_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'client_id' => array('appgini' => 'INT(11) '),
+-                       'planned_retirement_age' => array('appgini' => 'INT(11) '),
+-                       'serps_check' => array('appgini' => 'SMALLINT '),
+-                       'work_place_pension' => array('appgini' => 'SMALLINT '),
+-                       'retirement_transfer_value' => array('appgini' => 'INT '),
+-                       'retirement_monthly_income' => array('appgini' => 'INT '),
+-                       'retirement_notes' => array('appgini' => 'TEXT '),
+-                       'retirement_add_date' => array('appgini' => 'DATE '),
+-                       'drawdawn' => array('appgini' => 'TINYINT ')
+-               ),
+-               'final_salary_pension' => array(   
+-                       'final_salary_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'client_id' => array('appgini' => 'INT(11) '),
+-                       'final_salary_provider' => array('appgini' => 'INT(11) '),
+-                       'final_salary_value' => array('appgini' => 'INT '),
+-                       'final_salary_notes' => array('appgini' => 'TEXT '),
+-                       'final_salary_add_date' => array('appgini' => 'DATE ')
+-               ),
+-               'fact_find_other' => array(   
+-                       'other_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'client_id' => array('appgini' => 'INT(11) '),
+-                       'question_1_1' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_1_2' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_1_3' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_1_4' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_1_5' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_1_6' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_1_7' => array('appgini' => 'VARCHAR(40) ')
+-               ),
+                'activities' => array(   
+                        'activity_id' => array('appgini' => 'INT(11) not null primary key auto_increment '),
+                        'activity_date' => array('appgini' => 'DATE '),
+@@ -213,25 +146,6 @@
+                        'doc_date' => array('appgini' => 'DATE '),
+                        'doc_folder' => array('appgini' => 'INT ')
+                ),
+-               'atr' => array(   
+-                       'atr_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'client_id' => array('appgini' => 'INT(11) '),
+-                       'atr_score' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_1' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_2' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_3' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_4' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_5' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_6' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_7' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_8' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_9' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_10' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_11' => array('appgini' => 'VARCHAR(40) '),
+-                       'question_12' => array('appgini' => 'VARCHAR(40) '),
+-                       'qustion_13' => array('appgini' => 'VARCHAR(40) '),
+-                       'atr_date' => array('appgini' => 'DATE ')
+-               ),
+                'will' => array(   
+                        'will_id' => array('appgini' => 'INT not null primary key auto_increment '),
+                        'client_id' => array('appgini' => 'INT(11) '),
+@@ -366,12 +280,15 @@
+                        'case' => array('appgini' => 'INT unsigned '),
+                        'new_provider' => array('appgini' => 'INT(11) '),
+                        'plan_no' => array('appgini' => 'VARCHAR(250) '),
++                       'adviser' => array('appgini' => 'VARCHAR(40) '),
++                       'policy_type' => array('appgini' => 'VARCHAR(40) '),
+                        'tp_online_application_date' => array('appgini' => 'DATE '),
+                        'paperwork_submited' => array('appgini' => 'DATE '),
+                        'existing_pension_plans' => array('appgini' => 'INT(11) '),
+                        'final_tv' => array('appgini' => 'VARCHAR(40) '),
+                        'tp_commision_paid' => array('appgini' => 'VARCHAR(40) '),
+                        'commission_paid_date' => array('appgini' => 'DATE '),
++                       'practice' => array('appgini' => 'VARCHAR(40) '),
+                        'completed' => array('appgini' => 'VARCHAR(40) ')
+                ),
+                'business_sub_reg' => array(   
+@@ -423,23 +340,6 @@
+                        'callback_archive_time' => array('appgini' => 'TIME '),
+                        'callback_archive_notes' => array('appgini' => 'VARCHAR(40) ')
+                ),
+-               'tcf' => array(   
+-                       'tcf_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'client_id' => array('appgini' => 'INT(11) '),
+-                       'advisor' => array('appgini' => 'INT '),
+-                       'q1' => array('appgini' => 'VARCHAR(40) '),
+-                       'q2' => array('appgini' => 'VARCHAR(40) '),
+-                       'q3' => array('appgini' => 'VARCHAR(40) '),
+-                       'q4' => array('appgini' => 'VARCHAR(40) '),
+-                       'q5' => array('appgini' => 'VARCHAR(40) '),
+-                       'q6' => array('appgini' => 'VARCHAR(40) '),
+-                       'q7' => array('appgini' => 'VARCHAR(40) '),
+-                       'q8' => array('appgini' => 'VARCHAR(40) '),
+-                       'q9' => array('appgini' => 'VARCHAR(40) '),
+-                       'q10' => array('appgini' => 'VARCHAR(40) '),
+-                       'tcf_notes' => array('appgini' => 'LONGTEXT '),
+-                       'tcf_date' => array('appgini' => 'DATE ')
+-               ),
+                'anual_review' => array(   
+                        'review_id' => array('appgini' => 'INT not null primary key auto_increment '),
+                        'client' => array('appgini' => 'INT(11) '),
+@@ -914,20 +814,6 @@
+                'types_of_day' => array(   
+                        'type_day' => array('appgini' => 'VARCHAR(40) not null primary key ')
+                ),
+-               'db_maintain_log' => array(   
+-                       'db_event_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'db_event_date' => array('appgini' => 'DATETIME '),
+-                       'db_event_type' => array('appgini' => 'INT '),
+-                       'db_evend_desc' => array('appgini' => 'TEXT '),
+-                       'ticket_s' => array('appgini' => 'INT '),
+-                       'ticket_departament' => array('appgini' => 'TEXT '),
+-                       'priority' => array('appgini' => 'VARCHAR(40) not null default \'Normal\' '),
+-                       'estimated_compl_date' => array('appgini' => 'DATE '),
+-                       'ticket_person_responsible' => array('appgini' => 'VARCHAR(100) '),
+-                       'db_who_asked' => array('appgini' => 'VARCHAR(40) '),
+-                       'db_event_complete' => array('appgini' => 'DATE '),
+-                       'percentage' => array('appgini' => 'INT ')
+-               ),
+                'mortgage_types' => array(   
+                        'mortgage_type_id' => array('appgini' => 'VARCHAR(60) not null primary key ')
+                ),
+@@ -1072,26 +958,6 @@
+                        'calendar_activity_note' => array('appgini' => 'TEXT '),
+                        'calendar_activity_user' => array('appgini' => 'VARCHAR(40) ')
+                ),
+-               'ticket_types' => array(   
+-                       'ticket_type_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'ticket_type_name' => array('appgini' => 'VARCHAR(40) '),
+-                       'ticket_type_colour' => array('appgini' => 'VARCHAR(40) '),
+-                       'ticket_ico' => array('appgini' => 'VARCHAR(40) ')
+-               ),
+-               'ticket_statuses' => array(   
+-                       'ticket_status_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'ticket_status_name' => array('appgini' => 'VARCHAR(40) '),
+-                       'ticket_staus_colour' => array('appgini' => 'VARCHAR(40) '),
+-                       'ticket_status_ico' => array('appgini' => 'VARCHAR(40) ')
+-               ),
+-               'ticket_activities' => array(   
+-                       'ticket_act_id' => array('appgini' => 'INT not null primary key auto_increment '),
+-                       'ticket_id' => array('appgini' => 'INT not null '),
+-                       'ticket_time_date' => array('appgini' => 'DATETIME '),
+-                       'ticket_by_who' => array('appgini' => 'VARCHAR(40) '),
+-                       'ticket_desc' => array('appgini' => 'TEXT '),
+-                       'activity_type' => array('appgini' => 'INT(11) ')
+-               ),
+                'useful_documents' => array(   
+                        'doc_id' => array('appgini' => 'VARCHAR(40) not null primary key '),
+                        'file' => array('appgini' => 'VARCHAR(40) '),
+@@ -1462,7 +1328,20 @@
+                        'servicing_admin' => array('appgini' => 'VARCHAR(40) '),
+                        'calendar_id' => array('appgini' => 'INT unsigned '),
+                        'client_id' => array('appgini' => 'INT(11) '),
+-                       'practice' => array('appgini' => 'VARCHAR(40) ')
++                       'practice' => array('appgini' => 'VARCHAR(40) '),
++                       'do_not_want_to_move' => array('appgini' => 'TINYINT ')
++               ),
++               'calendar_messages' => array(   
++                       'message_id' => array('appgini' => 'INT not null primary key auto_increment '),
++                       'calendar_id' => array('appgini' => 'INT unsigned '),
++                       'client_id' => array('appgini' => 'INT(11) '),
++                       'message_type' => array('appgini' => 'VARCHAR(40) '),
++                       'message_content' => array('appgini' => 'TEXT '),
++                       'from' => array('appgini' => 'VARCHAR(120) '),
++                       'in_out' => array('appgini' => 'VARCHAR(5) '),
++                       'read' => array('appgini' => 'TINYINT '),
++                       'date' => array('appgini' => 'DATE '),
++                       'time' => array('appgini' => 'TIME ')
+                )
+        );
+ 
+diff --git a/admin/toolTipData.js b/admin/toolTipData.js
+index 70a08e0..43cda10 100644
+--- a/admin/toolTipData.js
++++ b/admin/toolTipData.js
+@@ -47,60 +47,6 @@ contractor_appointments_delete1Tip=["",spacer+"This option allows each member of
+ contractor_appointments_delete2Tip=["",spacer+"This option allows each member of the group to delete any record owned by any member of the group in the 'Calendar ' table."];
+ contractor_appointments_delete3Tip=["",spacer+"This option allows each member of the group to delete any records in the 'Calendar ' table."];
+ 
+-// dependants table
+-dependants_addTip=["",spacer+"This option allows all members of the group to add records to the 'Dependants' table. A member who adds a record to the table becomes the 'owner' of that record."];
+-
+-dependants_view0Tip=["",spacer+"This option prohibits all members of the group from viewing any record in the 'Dependants' table."];
+-dependants_view1Tip=["",spacer+"This option allows each member of the group to view only his own records in the 'Dependants' table."];
+-dependants_view2Tip=["",spacer+"This option allows each member of the group to view any record owned by any member of the group in the 'Dependants' table."];
+-dependants_view3Tip=["",spacer+"This option allows each member of the group to view all records in the 'Dependants' table."];
+-
+-dependants_edit0Tip=["",spacer+"This option prohibits all members of the group from modifying any record in the 'Dependants' table."];
+-dependants_edit1Tip=["",spacer+"This option allows each member of the group to edit only his own records in the 'Dependants' table."];
+-dependants_edit2Tip=["",spacer+"This option allows each member of the group to edit any record owned by any member of the group in the 'Dependants' table."];
+-dependants_edit3Tip=["",spacer+"This option allows each member of the group to edit any records in the 'Dependants' table, regardless of their owner."];
+-
+-dependants_delete0Tip=["",spacer+"This option prohibits all members of the group from deleting any record in the 'Dependants' table."];
+-dependants_delete1Tip=["",spacer+"This option allows each member of the group to delete only his own records in the 'Dependants' table."];
+-dependants_delete2Tip=["",spacer+"This option allows each member of the group to delete any record owned by any member of the group in the 'Dependants' table."];
+-dependants_delete3Tip=["",spacer+"This option allows each member of the group to delete any records in the 'Dependants' table."];
+-
+-// client_health table
+-client_health_addTip=["",spacer

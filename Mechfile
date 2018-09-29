@@ -1,0 +1,6 @@
+{
+  "box": "laravel/homestead",
+  "box_version": "6.3.0",
+  "name": "Konnex",
+  "url": "https://vagrantcloud.com/laravel/boxes/homestead/versions/6.3.0/providers/vmware_desktop.box"
+}
