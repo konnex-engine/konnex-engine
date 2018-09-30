@@ -108,6 +108,53 @@ paths:
             application/xml:
               schema:
                 $ref: '#/components/schemas/User'
+                
+    put:
+      description: 'Update records for a specific Konnex User.'
+      summary: 'Update user data.'
+      tags: 
+        - PUT
+      parameters: 
+        - name: userID
+          in: path
+          required: true
+          description: 'The User ID for the specific user.'
+          schema:
+            type: integer
+            example: 635853879
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+      responses:
+        202:
+          description: 'Successfully apdated User data.'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/User'
+    
+    delete:
+      description: 'Delete records for a specific Konnex User.'
+      summary: 'Delete user data.'
+      tags: 
+        - DELETE
+      parameters: 
+        - name: userID
+          in: path
+          required: true
+          description: 'The User ID for the specific user.'
+          schema:
+            type: integer
+            example: 635853879
+
+      responses:
+        204:
+          description: 'Successfully deleted User data.'
 
 components:
   schemas:
