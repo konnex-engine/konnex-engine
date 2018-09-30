@@ -1,0 +1,232 @@
+openapi: 3.0.0
+info:
+  version: '1.0.0'
+  title: "Konnex Company API"
+  description: 'An API that allows for creating, reading, updating and deleting of Konnex User Company data.'
+  termsOfService: 'https://api.konnex-engine.io/terms-of-service'
+  contact:
+    name: Konnex Engine           # For demonstration purposes
+    url: https://konnex-engine.io # This domain name is available...
+    email: info@konnex-engine.io  # Self-explanatory...
+  license:
+    name: Konnex Public License
+    url: https://konnex-engine.io/license
+
+servers: 
+  - url: https://api.konnex-engine.io/v1
+    description: 'Production API'
+    
+  - url: https://apidev.konnex-engine.io/v1
+    description: 'Development API'
+  
+  # Added by API Auto Mocking Plugin
+  - url: https://virtserver.swaggerhub.com/Kinexis/Konnex_Company_API/1.0.0
+    description: 'SwaggerHub API Auto Mocking'
+        
+paths: 
+  /companies:
+    get:
+      description: 'Obtain information about Konnex users companies.'
+      summary: 'Retrieves all available Konnex User company data'
+      tags: 
+        - GET
+      parameters: 
+        - name: bodyLimit
+          in: query
+          description: 'The number of company records to return.'
+          schema:
+            type: integer
+            minimum: 10
+            maximum: 50
+            example: 15
+        - name: pageLimit
+          in: query
+          description: 'The number of pages of company records to return.'
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 10
+            example: 3
+      responses:
+        200:
+          description: 'Successfully retrieved available Company data.'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Companies'
+            
+            
+    post:
+      description: 'Creates a new Konnex User Company in the database.'
+      summary: Creates a new Company
+      tags: 
+        - POST
+                  
+      requestBody:
+      
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/CreateCompanyForm'
+              
+            encoding:
+              payload:
+                contentType: application/json
+        
+      responses:
+        201:
+          description: 'Successfully created new Company.'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Company'
+                      
+  /companies/{companyID}:
+    get:
+      description: 'Obtain information for a specific company by company ID.'
+      summary: Retrieves data for a specific company
+      tags: 
+        - GET
+      parameters: 
+        - name: companyID
+          in: path
+          required: true
+          description: 'The Company ID for the specific company.'
+          schema:
+            type: integer
+            example: 635853879
+      responses:
+        200:
+          description: 'Successfully retrieved Company by ID.'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Company'
+                
+    put:
+      description: 'Update records for a specific Company.'
+      summary: 'Update company data.'
+      tags: 
+        - PUT
+      parameters: 
+        - name: companyID
+          in: path
+          required: true
+          description: 'The Company ID for the specific company.'
+          schema:
+            type: integer
+            example: 635853879
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Company'
+      responses:
+        202:
+          description: 'Successfully updated Company data.'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Company'
+    
+    delete:
+      description: 'Delete records for a specific Company.'
+      summary: 'Delete company data.'
+      tags: 
+        - DELETE
+      parameters: 
+        - name: companyID
+          in: path
+          required: true
+          description: 'The Company ID for the specific company.'
+          schema:
+            type: integer
+            example: 635853879
+
+      responses:
+        204:
+          description: 'Successfully deleted Company data.'
+
+components:
+  schemas:
+  
+    Companies:
+      type: array
+      description: 'An array of Company model objects'
+      items:
+        $ref: '#/components/schemas/Company'
+    
+    Company:
+      type: object
+      description: 'Data model containing Company info.'
+      properties:
+        id:
+          type: integer
+          example: 637457372
+        admin userID:
+          type: integer
+          example: 635853879
+        name:
+          type: array
+          items:
+            properties:
+              legal name:
+                type: string
+                example: 'Blah Limited'
+              trading name:
+                type: string
+                example: 'Blah Blah Design Services'
+        contactdetails href:
+          type: string
+          example: 'https://api.konnex-app.com/v1/companies/635853879/contactdetails'
+        addresses href:
+          type: string
+          example: 'https://api.konnex-app.com/v1/companies/635853879/addresses'
+        images href:
+          type: string
+          example: 'https://api.konnex-app.com/v1/companies/635853879/images'
+        companies href:
+          type: string
+          example: 'https://api.konnex-app.com/v1/companies/635853879/companies'
+        products href:
+          type: string
+          example: 'https://api.konnex-app.com/v1/companies/635853879/products'
+        services href:
+          type: string
+          example: 'https://api.konnex-app.com/v1/companies/635853879/services'
+        events href:
+          type: string
+          example: 'https://api.konnex-app.com/v1/companies/635853879/events'
+        teams href:
+          type: string
+          example: 'https://api.konnex-app.com/v1/companies/635853879/teams'
+          
+    CreateCompanyForm:
+      type: object
+      properties:
+        userID:
+          type: integer
+          example: 635853879
+        name:
+          type: array
+          items:
+            properties:
+              legal name:
+                type: string
+                example: 'Blah Limited'
+              
+              trading name:
+                type: string
+                example: 'Blah Blah Design Services'
+            required:
+              - userID
+              - legal name
