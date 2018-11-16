@@ -3,4 +3,4 @@
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
-*.1 text
+*.1 liguist-documentation
