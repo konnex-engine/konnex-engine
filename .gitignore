@@ -9,6 +9,8 @@
 /.vagrant
 Homestead.json
 Homestead.yaml
+Homestead.yaml.*
+venio_key
 npm-debug.log
 yarn-error.log
 .env
