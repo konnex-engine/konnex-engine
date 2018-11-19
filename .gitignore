@@ -16,5 +16,5 @@ yarn-error.log
 .env
 .phpunit.result.cache
 .editorconfig
-.mech/
-/api/spec/output
+/.mech
+/api/spec/generated-output
