@@ -14,18 +14,14 @@ info:
     url: https://konnex-engine.io/license
 
 servers:
-# Added by API Auto Mocking Plugin
-  - description: SwaggerHub API Auto Mocking
-    url: https://virtserver.swaggerhub.com/Kinexis/Konnex_Addresses_API/1.0.0
+
+
   - url: https://api.konnex-engine.io/v1
     description: 'Production API'
 
   - url: https://apidev.konnex-engine.io/v1
     description: 'Development API'
 
-  # Added by API Auto Mocking Plugin
-  - url: https://virtserver.swaggerhub.com/Kinexis/Konnex_Contact_Details_API/1.0.0
-    description: 'SwaggerHub API Auto Mocking'
 
 paths:
   /{objectType}/{objectID}/addresses:
