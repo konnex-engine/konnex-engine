@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace KonnexEngine\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

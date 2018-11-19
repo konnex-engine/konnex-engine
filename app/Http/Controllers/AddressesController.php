@@ -17,7 +17,7 @@
  */
 
 
-namespace App\Http\Controllers;
+namespace KonnexEngine\Http\Controllers;
 
 use Illuminate\Support\Facades\Request;
 

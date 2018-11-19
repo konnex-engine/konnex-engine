@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        KonnexEngine\Providers\AppServiceProvider::class,
+        KonnexEngine\Providers\AuthServiceProvider::class,
+        // KonnexEngine\Providers\BroadcastServiceProvider::class,
+        KonnexEngine\Providers\EventServiceProvider::class,
+        KonnexEngine\Providers\RouteServiceProvider::class,
 
     ],
 
