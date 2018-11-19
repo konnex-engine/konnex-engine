@@ -3,7 +3,7 @@ openapi: 3.0.0
 info:
   version: '1.0.0'
   title: "Konnex Addresses API"
-  description: 'An API that allows for creating, reading, updating and deleting of Konnex User Address data.'
+  description: 'An API that allows for creating, reading, updating and deleting of Konnex Object Address data.'
   termsOfService: 'https://api.konnex-engine.io/terms-of-service'
   contact:
     name: Konnex Engine           # For demonstration purposes
@@ -28,15 +28,29 @@ servers:
     description: 'SwaggerHub API Auto Mocking'
 
 paths:
-  /leads/{leadID}/addresses:
+  /{objectType}/{objectID}/addresses:
     get:
       description: 'Obtain information about Konnex users address.'
       summary: 'Retrieves all available Konnex User address data'
       tags:
         - Addresses
-      operationId: getLeadAddresses
+      operationId: getAddresses
       parameters:
-        - name: leadID
+        - name: objectType
+          in: path
+          required: true
+          description: 'The type of object to get contact details for.'
+          schema:
+            type: string
+            enum:
+              - users
+                companies
+                leads
+                consultants
+                advisers
+                introducers
+                employees
+        - name: objectID
           in: path
           required: true
           description: 'The leadID of the Lead to get addresses for'
@@ -72,9 +86,23 @@ paths:
       summary: 'Creates a new Address'
       tags:
         - Addresses
-      operationId: createLeadAddress
+      operationId: createAddress
       parameters:
-        - name: leadID
+        - name: objectType
+          in: path
+          required: true
+          description: 'The type of object to get contact details for.'
+          schema:
+            type: string
+            enum:
+              - users
+                companies
+                leads
+                consultants
+                advisers
+                introducers
+                employees
+        - name: objectID
           in: path
           required: true
           description: 'The leadID of the Lead to get addresses for'
@@ -102,15 +130,29 @@ paths:
               schema:
                 $ref: '#/components/schemas/Address'
 
-  /leads/{leadID}/addresses/{addressID}:
+  /{objectType}/{objectID}/addresses/{addressID}:
     get:
       description: 'Retrieve a specific Address by Address ID.'
       summary: Returns a specific Address by ID
       tags:
         - Addresses
-      operationId: getLeadAddressByID
+      operationId: getAddressByID
       parameters:
-        - name: leadID
+        - name: objectType
+          in: path
+          required: true
+          description: 'The type of object to get contact details for.'
+          schema:
+            type: string
+            enum:
+              - users
+                companies
+                leads
+                consultants
+                advisers
+                introducers
+                employees
+        - name: objectID
           in: path
           required: true
           description: 'The leadID of the Lead to get addresses for'
@@ -140,9 +182,23 @@ paths:
       summary: 'Update address data.'
       tags:
         - Addresses
-      operationId: updateLeadAddress
+      operationId: updateAddress
       parameters:
-        - name: leadID
+        - name: objectType
+          in: path
+          required: true
+          description: 'The type of object to get contact details for.'
+          schema:
+            type: string
+            enum:
+              - users
+                companies
+                leads
+                consultants
+                advisers
+                introducers
+                employees
+        - name: objectID
           in: path
           required: true
           description: 'The leadID of the Lead to get addresses for'
@@ -177,9 +233,23 @@ paths:
       summary: 'Delete address data.'
       tags:
         - Addresses
-      operationId: deleteLeadAddress
+      operationId: deleteAddress
       parameters:
-        - name: leadID
+        - name: objectType
+          in: path
+          required: true
+          description: 'The type of object to get contact details for.'
+          schema:
+            type: string
+            enum:
+              - users
+                companies
+                leads
+                consultants
+                advisers
+                introducers
+                employees
+        - name: objectID
           in: path
           required: true
           description: 'The leadID of the Lead to get addresses for'

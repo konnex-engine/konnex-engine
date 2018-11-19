@@ -84,6 +84,7 @@ paths:
       summary: 'Creates a new Contact Detail'
       tags:
         - Contact Details
+      operationId: createContactDetails
       parameters:
         - name: objectType
           in: path
@@ -135,6 +136,7 @@ paths:
       summary: Returns a specific contact detail by ID
       tags:
         - Contact Details
+      operationId: getContactDetailsByID
       parameters:
         - name: objectType
           in: path
@@ -181,6 +183,7 @@ paths:
       summary: 'Update contact detail data.'
       tags:
         - Contact Details
+      operationId: updateContactDetails
       parameters:
         - name: objectType
           in: path
@@ -232,6 +235,7 @@ paths:
       summary: 'Delete contact detail data.'
       tags:
         - Contact Details
+      operationId: deleteContactDetails
       parameters:
         - name: objectType
           in: path
