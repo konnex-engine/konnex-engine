@@ -1,5 +1,5 @@
 {
-    "name": "konnex-engine/konnex-engine",
+    "name": "konnex-engine/framework",
     "description": "The Konnex Engine Framework.",
     "keywords": ["framework", "konnex", "konnex-engine", "api"],
     "license": "MIT",
