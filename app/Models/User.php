@@ -7,7 +7,8 @@ namespace KonnexEngine\Models;
 /**
  * User
  */
-class User {
+class User extends \Illuminate\Foundation\Auth\User
+{
 
     /** @var int $id */
     private $id;

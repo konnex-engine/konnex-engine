@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::apiResource('{objectType}/{objectID}/addresses', 'AddressesController')
+    ->parameters(['addresses' => 'addressID'
+    ]);
+
+Route::apiResource('{objectType}/{objectID}/contactdetails', 'AddressesController')
+    ->parameters(['contactdetails' => 'contactID'
+    ]);
