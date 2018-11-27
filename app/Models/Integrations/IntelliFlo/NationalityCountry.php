@@ -4,6 +4,7 @@
  */
 namespace KonnexEngine\Models\Integrations\IntelliFlo;
 
+use Illuminate\Database\Eloquent\Model;
 /**
  * NationalityCountry
  */
