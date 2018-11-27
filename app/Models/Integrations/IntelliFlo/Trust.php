@@ -7,7 +7,7 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * Trust
  */
-class Trust {
+class Trust extends Model {
 
     /** @var string $type */
     private $type;

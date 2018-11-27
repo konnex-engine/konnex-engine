@@ -7,7 +7,7 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * LeadAdviser
  */
-class LeadAdviser {
+class LeadAdviser extends Model {
 
     /** @var string $href */
     private $href;

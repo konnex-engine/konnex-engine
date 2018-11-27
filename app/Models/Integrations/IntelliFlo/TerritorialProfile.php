@@ -7,7 +7,7 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * TerritorialProfile
  */
-class TerritorialProfile {
+class TerritorialProfile extends Model {
 
     /** @var bool $expatriate */
     private $expatriate;

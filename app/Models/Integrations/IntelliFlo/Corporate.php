@@ -7,7 +7,7 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * Corporate
  */
-class Corporate {
+class Corporate extends Model {
 
     /** @var string $businessType */
     private $businessType;

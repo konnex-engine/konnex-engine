@@ -7,7 +7,7 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * HealthProfile
  */
-class HealthProfile {
+class HealthProfile  extends Model {
 
     /** @var bool $inGoodHealth */
     private $inGoodHealth;

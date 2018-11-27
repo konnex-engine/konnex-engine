@@ -7,6 +7,6 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * Leads
  */
-class Leads {
+class Leads extends Model {
 
 }

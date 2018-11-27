@@ -3,11 +3,12 @@
  * Lead
  */
 namespace KonnexEngine\Models\Integrations\IntelliFlo;
+use Illuminate\Database\Eloquent\Model;
 
 /**
  * Lead
  */
-class Lead {
+class Lead extends Model {
 
     /** @var string $category */
     private $category;

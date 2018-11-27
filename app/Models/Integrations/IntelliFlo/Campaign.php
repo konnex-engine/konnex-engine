@@ -2,12 +2,14 @@
 /**
  * Campaign
  */
+
 namespace KonnexEngine\Models\Integrations\IntelliFlo;
 
 /**
  * Campaign
  */
-class Campaign {
+class Campaign extends Model
+{
 
     /** @var string $source */
     private $source;

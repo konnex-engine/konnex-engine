@@ -7,7 +7,7 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * Person
  */
-class Person {
+class Person extends Model{
 
     /** @var string $maritalStatus */
     private $maritalStatus;

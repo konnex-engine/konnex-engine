@@ -7,6 +7,6 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * UpdateLeadForm
  */
-class UpdateLeadForm {
+class UpdateLeadForm extends Model {
 
 }

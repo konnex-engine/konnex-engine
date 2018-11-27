@@ -7,7 +7,7 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * NationalityCountry
  */
-class NationalityCountry {
+class NationalityCountry extends Model {
 
     /** @var string $isoCode */
     private $isoCode;

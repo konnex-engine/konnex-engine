@@ -7,6 +7,6 @@ namespace KonnexEngine\Models\Integrations\IntelliFlo;
 /**
  * CreateLeadForm
  */
-class CreateLeadForm {
+class CreateLeadForm extends Model {
 
 }
